@@ -1,20 +1,23 @@
-body,
-html {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.abilities {
-  text-align: center;
-}
-
-.abilities a {
+.img {
+  background-color: #91eecf7a;
+  padding: 10px 10px;
+  border-radius: 15px;
   display: inline-block;
-  margin: 15px;
-  color: #477d7f;
+  margin: 10px auto;
+  border: 2px solid #333;
+}
+
+.eh1 {
+  background-color: #91eecf7a;
+  padding: 10px 20px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+  color: #bbfd93;
+  border: 2px solid #333;
 }
 
 .button {
@@ -28,10 +31,24 @@ html {
   border-radius: 12px;
   transition: background-color 0.3s ease;
   border: 2px solid #333;
+  font-size: x-large;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #000000;
 }
 
 .button:hover {
   background-color: #1cc28b;
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 body {
@@ -40,18 +57,7 @@ body {
   margin: 0;
 }
 
-.txt5 {
-  background-color: #91eecf7a;
-  padding: 10px 10px;
-  border-radius: 15px;
-  display: inline-block;
-  margin: 10px auto;
-  text-align: center;
-  color: #a77ac9;
-  border: 2px solid #333;
-}
-
-.h1cassio {
+.txt1 {
   background-color: #91eecf7a;
   padding: 10px 10px;
   border-radius: 15px;
@@ -60,10 +66,19 @@ body {
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 15px;
-  color: #1f5357;
+  color: #513d7c;
   border: 2px solid #333;
 }
 
-.cassioimg {
-  width: 100;
+.txt2 {
+  background-color: #91eecf7a;
+  padding: 10px 10px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #5e8843;
+  border: 2px solid #333;
 }
